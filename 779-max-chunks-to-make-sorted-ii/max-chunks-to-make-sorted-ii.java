@@ -8,7 +8,7 @@ class Solution {
             st.push(curr);
           }
           else{
-            int max=st.pop();
+            int max=st.pop();  //only stores first popped element 
             while(!st.isEmpty() && curr<st.peek()){
                 st.pop();
             }

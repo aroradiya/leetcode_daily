@@ -7,7 +7,6 @@ class Solution {
                 map.put(nums[i],map.getOrDefault(nums[i],0)+1);
             }
         }
-        //0-1 2-2 4-2 
         int maxfreq=-1;
         int ans=-1;
         for(int key:map.keySet()){
